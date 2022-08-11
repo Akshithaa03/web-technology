@@ -1,0 +1,60 @@
+  <!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #e8bc6c;
+}
+</style>
+<body>
+
+    <div class="icon-bar">
+      <a class="active" href="Supermarket.html"><i class="fa fa-home"></i></a> 
+      <a href="About.html"><i class="fa fa-server"></i></a> 
+      <a href="Details.html"><i class="fa fa-envelope"></i></a>
+      <a href="login.html"><i class="fa fa-lock"></i></a> 
+      <img  align="middle" src="GV.png" width="600px" height="400px" alt=""/>
+
+    </div>
+    
+    <form>
+        <label for="name">Name:</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="gender">Gender:</label> &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+        <label for="gender-male">Male<input id="gender-male" type="radio" name="gender" value="male" /></label> &emsp;
+        <label for="gender-female">Female<input id="gender-female" type="radio" name="gender" value="female" /></label> &emsp;
+        <label for="gender-other">Other<input id="gender-other" type="radio" name="gender" value="other" /></label> &emsp;
+        <br><br>
+        <label for="contact">Contact Number:</label>&emsp;&emsp;
+        <input type="text" id="contact" name="contact">
+        <br><br><br><br>
+        <input type="submit" value="Submit">
+      
+      </form>
+    </body>
+    </html> 
+    
